@@ -1,0 +1,21 @@
+#header {
+    height:  10vh;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+#main{
+    background-image: url(Assets/desc.png);
+    background-repeat: no-repeat;
+    height: 80vh;
+    text-align: center;
+    color: black;
+}
+
+#footer {    
+    background-color: black;
+    height: 10vh;
+    text-align: center;
+    color: white;
+}
