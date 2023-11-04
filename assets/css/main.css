@@ -1661,7 +1661,7 @@ input, select, textarea {
 		}
 
 		#im {
-			width: 10rem;
+			width: 100%;
 			border: 8px solid #2c2f3f;		  
 			border-radius: 100%;
 		  }
