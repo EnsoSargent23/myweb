@@ -3,6 +3,23 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+const audio = new Audio("assets/Music/track1.mp3");
+let wave = new CircularAudioWave(document.getElementById('visual'),{loop:true});
+wave.loadAudio("assets/Music/track1.mp3");
+
+
+function startMusic(){
+	wave.play();
+	
+	if(!audio.paused){
+		audio.pause();
+	}
+	else{
+		audio.play();
+	}
+	
+}
+
 
 (function($) {
 
