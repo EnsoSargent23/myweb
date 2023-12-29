@@ -20,6 +20,14 @@ function startMusic(){
 	
 }
 
+function sendMailValue(){
+	let nameValue = $("#name").val();
+    let emailValue = $("#email").val();
+    let messageValue = $("#message").val();
+
+	let url = `https://weiterleitungdata.onrender.com/submitcomment/${encodeURIComponent(nameValue)}/${encodeURIComponent(emailValue)}/${encodeURIComponent(messageValue)}`;
+	window.location.href=url;
+}
 
 (function($) {
 
